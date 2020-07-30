@@ -1,0 +1,44 @@
+header {
+
+  @include clearfix;
+
+  background-color: $header_bgColor;
+  height: 200px;
+  padding: 10px;
+
+  .top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+
+      width: 280px;
+
+
+    }
+
+    nav {
+
+      ul {
+        list-style-type: none;
+        line-height: 200px;
+
+        li {
+          display: inline-block;
+          padding-right: 20px;
+
+        }
+      }
+    }
+
+
+  }
+
+
+
+
+
+
+
+}

@@ -12,7 +12,16 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//  home page boolean
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.home');
+    // si utilizza il punto per spostarsi all'interno delle cartelle
+});
+
+
+//  pagina privacy boolean
+Route::get('/privacy', function () {
+    return view('pages.privacy');
+
 });

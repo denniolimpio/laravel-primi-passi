@@ -1,0 +1,33 @@
+main {
+  @include clearfix;
+  background-color: $main_bgColor;
+  @include wid70;
+  
+  .text-lessons {
+    float: left;
+    width: 50%;
+
+    h2 {
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      padding: 30px 0;
+    }
+
+    ul {
+      padding: 10px 80px;
+      li {
+        font-size: 23px;
+      }
+    }
+
+  }
+
+  .image-lessons{
+    float: right;
+    width: 50%;
+
+  }
+}

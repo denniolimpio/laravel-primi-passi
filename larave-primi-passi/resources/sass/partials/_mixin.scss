@@ -1,0 +1,11 @@
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin wid70 {
+  padding: 60px 20px;
+}
