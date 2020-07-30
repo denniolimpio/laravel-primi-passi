@@ -2,12 +2,11 @@
 
 @section('title')
 
-  Privacy
+  Dopo-il-corso
 @endsection
 
 @section('main_content')
 
-  @include('partials.policy_main')
-
+@include('partials.dopo')
 
 @endsection

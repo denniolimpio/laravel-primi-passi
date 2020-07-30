@@ -3,7 +3,7 @@ header {
   @include clearfix;
 
   background-color: $header_bgColor;
-  height: 200px;
+  height: 90px;
   padding: 10px;
 
   .top-header {
@@ -13,7 +13,7 @@ header {
 
     .logo {
 
-      width: 280px;
+      width: 220px;
 
 
     }
@@ -22,11 +22,10 @@ header {
 
       ul {
         list-style-type: none;
-        line-height: 200px;
 
         li {
           display: inline-block;
-          padding-right: 20px;
+          padding-right: 70px;
 
         }
       }

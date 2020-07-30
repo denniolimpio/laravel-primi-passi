@@ -16,13 +16,16 @@
             <a href="{{ url('/privacy')}}"> PRIVACY</a>
           </li>
           <li>
-            <a href="#"> DOPO IL CORSO</a>
+            <a href="{{ url('/dopo-il-corso')}}"> DOPO IL CORSO</a>
           </li>
           <li>
             <a href="#"> LEZIONE GRATUITA</a>
           </li>
           <li>
             <a href="#"> ASSUMI I NOSTRI STUDENTI</a>
+          </li>
+          <li>
+            <button> CANDIDATI ORA</button>
           </li>
 
         </ul>

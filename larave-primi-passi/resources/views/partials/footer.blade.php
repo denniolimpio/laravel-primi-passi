@@ -3,7 +3,10 @@
 <div>
 
   <div class="info">
-    <img src="{{ asset('img/logo-white.png')}}" alt="">
+    <div class="immagine">
+      <img src="{{ asset('img/logo-white.png')}}" alt="">
+
+    </div>
 
   </div>
 

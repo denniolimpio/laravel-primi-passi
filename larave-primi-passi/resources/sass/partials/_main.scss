@@ -1,15 +1,19 @@
 main {
   @include clearfix;
   background-color: $main_bgColor;
-  @include wid70;
-  
+  margin: $section_margin;
+  padding: 100px;
   .text-lessons {
+
     float: left;
     width: 50%;
+    padding: 0 70px;
 
     h2 {
-      font-size: 30px;
+      font-size: 35px;
       text-transform: uppercase;
+      font-family: 'Nunito', sans-serif;
+      padding: 10px 0;
     }
 
     h3 {
@@ -28,6 +32,12 @@ main {
   .image-lessons{
     float: right;
     width: 50%;
+    text-align: center;
+
+
+    img {
+      width: 500px;
+    }
 
   }
 }

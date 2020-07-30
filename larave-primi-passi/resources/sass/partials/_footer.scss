@@ -1,28 +1,32 @@
 footer {
+  padding: 10px;
   background-color: $footer_bgColor;
-  @include wid70;
 
-div {
-  display: flex;
-  justify-content: space-between;
+  div {
+    display: flex;
+    justify-content: space-between;
 
-  .info {
-    width: 300px;
+    .info {
 
-    img {
-      width: 100%;
+      .immagine {
+
+        width: 200px;
+        padding: 50px 0 ;
+
+      }
+
+
+    }
+
+    .links {
+
+      li {
+        padding: 10px 0;
+        font-size: 18px;
+        color: #fff;
+      }
     }
   }
-
-  .links {
-
-    li {
-      padding: 10px 0;
-      font-size: 23px;
-      color: #fff;
-    }
-  }
-}
 
 
 

@@ -25,3 +25,8 @@ Route::get('/privacy', function () {
     return view('pages.privacy');
 
 });
+
+Route::get('/dopo-il-corso', function () {
+    return view('pages.dopo');
+
+});
